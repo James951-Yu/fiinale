@@ -13,13 +13,17 @@
 </head>
 
 <body>
+
     <!--Navigation-->
     <section class="header">
+        <img class="element" src="images/element.png" alt="">
+        <img class="element-2" src="images/element2.png" alt="">
+        <img class="element-3" src="images/element3.png" alt="">
         <nav>
-            <div class="parent">
-                <img class="image-1" src="Ellipse 7.png" alt="">
-                <img class="image-2" src="Ellipse 11.png" alt="">
-            </div>
+
+            <img class="image-1" src="images/Ellipse 7.png" alt="">
+            <img class="image-2" src="images/Ellipse 11.png" alt="">
+
             <div class="nav-links" id="navLinks">
                 <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
                 <ul>
@@ -27,8 +31,8 @@
                     <li><a href="#">Destinations</a></li>
                     <li><a href="#">About</a></li>
                     <li><a href="#">Partner</a></li>
-                    <li><a href="#"><button>Login</button></a></li>
-                    <li><a href="#"><button>Registration</button></a></li>
+                    <li><button>Login</button></li>
+                    <li><button>Registration</button></li>
                 </ul>
             </div>
             <i class="fa-solid fa-bars" onclick="showMenu()"></i>
@@ -36,138 +40,151 @@
         </nav>
         <div class="travel">
             <div class="travel-coll">
-                <h1>Explore and Travel</h1>
-
-                <h2 class="holiday">Holiday Finder</h2>
-
-                <br>
-                <hr>
-                <br>
-                <form action="Locations" method="post" class="form">
-                    <div class="form-1-row">
-                        <select name="city" class="box">
-                            <option value="Location">Location</option>
-                            <option value="Sydney">Sydney</option>
-                            <option value="Melbourne">Melbourne</option>
-                            <option value="Brisbane">Brisbane</option>
-                        </select>
-                        <select name="action" class="box">
-                            <option value="action">Activity</option>
-                            <option value="Surfing">Surfing</option>
-                            <option value="Racing">Racing</option>
-                            <option value="AnimalCare">Animal Care</option>
-                        </select>
-                    </div>
-                    <div class="form-2-row" id="form-box">
-                        <select name="Grade" class="box" placeholder="Grade">
-                            <option value="Grade">Grade</option>
-                            <option value="Economy">Economy Class</option>
-                            <option value="First">First Class</option>
-                            <option value="Business">Business Class</option>
-                        </select>
-                        <input type="date" placeholder="Date" class="box">
-                    </div>
-
-                    <button class="explore">Explore</button>
+                <h1>Explore and <br>Travel</h1>
+                <div class="form-coll">
+                    <h2>Holiday Finder</h2>
 
 
-                </form>
+                    <hr>
+
+                    <form action="Locations" method="post" class="form">
+                        <div class="form-1-row">
+                            <select name="city" class="box">
+                                <option value="Location">Location</option>
+                                <option value="Sydney">Sydney</option>
+                                <option value="Melbourne">Melbourne</option>
+                                <option value="Brisbane">Brisbane</option>
+                            </select>
+                            <select name="action" class="box">
+                                <option value="action">Activity</option>
+                                <option value="Surfing">Surfing</option>
+                                <option value="Racing">Racing</option>
+                                <option value="AnimalCare">Animal Care</option>
+                            </select>
+                        </div>
+                        <div class="form-2-row" id="form-box">
+                            <select name="Grade" class="box" placeholder="Grade">
+                                <option value="Grade">Grade</option>
+                                <option value="Economy">Economy Class</option>
+                                <option value="First">First Class</option>
+                                <option value="Business">Business Class</option>
+                            </select>
+                            <input type="date" placeholder="Date" class="box">
+                        </div>
+
+                        <button class="explore" placeholder="Explore">Explore</button>
+                    </form>
+                </div>
+
+
+
+
             </div>
             <div>
-                <img class="thousand" src="thousand-01 1.jpg" alt="">
+                <img class="thousand" src="images/thousand-01 1.jpg" alt="">
+            </div>
+        </div>
+    </section>
+    <!---Section 2---->
+    <section class="Sec-2">
+        <div class="Planet">
+            <img class="element" src="images/element3.png" alt="">
+            <img class="element-2" src="images/element2.png" alt="">
+            <div class="planet-coll">
+                <h2>A new way to explore the world</h2>
+                <p>
+                    For decades travellers have reached for Lonely Planet books <br> when looking to plan and execute
+                    their
+                    perfect
+                    trip, but now, <br> they can also let Lonely Planet Experiences lead the way
+                </p>
+                <button id="Learn">Learn more</button>
+            </div>
+
+            <img src="images/Thousand-02 1.jpg" alt="">
+
+
+    </section>
+    <!--Section 3-->
+    <section class="sec-3">
+        <img class="element-3" src="images/element3.png" alt="">
+        <img class="element-11" src="images/element.png" alt="">
+        <img class="element-1" src="images/element.png" alt="">
+        <div class="destiny">
+            <div class="photoalbom">
+                <h2>Featured Destinations</h2>
+                <a href="www.viewall.com" class="view" id="view">
+                    View all
+                </a>
+            </div>
+            <div class="container-3">
+                <div class="four-image"><img src="images/Fanjingshan.png" alt=""></div>
+                <div class="four-image"><img src="images/Raja ampat.png" alt=""></div>
+                <div class="four-image"><img src="images/Skadar.png" alt=""></div>
+                <div class="four-image"><img src="images/Vevey.png" alt=""></div>
             </div>
         </div>
 
 
     </section>
-    </section>
-    <section class="Planet">
-        <div class="planet-coll">
-            <h2>A new way to explore the world</h2>
-            <p>
-                For decades travellers have reached for Lonely Planet books <br> when looking to plan and execute their
-                perfect
-                trip, but now, <br> they can also let Lonely Planet Experiences lead the way
-            </p>
-            <button id="Learn">Learn more</button>
-        </div>
 
-        <img src="Thousand-02 1.jpg" alt="">
+    <!--section 4-->
 
-
-    </section>
-
-    <section class="destiny">
-        <div class="photoalbom">
-            <h2>Featured Destinations</h2>
-            <a href="www.viewall.com" class="view" id="view">
-                View all
-            </a>
-
-        </div>
-        <div class="container-3">
-            <div> <img src="Fanjingshan.png" alt=""></div>
-            <div><img src="Raja ampat.png" alt=""></div>
-            <div> <img src="Skadar.png" alt=""></div>
-            <div><img src="Vevey.png" alt=""></div>
-        </div>
-
-
-
-    </section>
-
-    <!--section 4  ----->
-
-    <section class="Sunnyguide">
-        <div class="guide">
-            <h2>Guides by Thousand Sunny</h2>
-            <p>
-                Packed with tips and advice from our on-the-ground experts,
-                our city guides app (iOS and Android) is the ultimate resource before and during a trip.
-            </p>
-            <button a href="Download" id="download" placeholder="Download">Download</button>
-        </div>
-
-        <img class="Image-3" src="Thousand-03.png" alt="">
-
-    </section>
-
-    <section class="Trials">
-
-        <div class="Trial-star">
-            <h2>Testimonials</h2>
-
-
-            <div class="Ratings">
-                <span class="star" data-rating="5">&#9733;</span>
-                <span data-rating="5">&starf;</span>
-                <span data-rating="5">&starf;</span>
-                <span data-rating="5">&starf;</span>
-                <span data-rating="5">&starf;</span>
+    <section class="sec-4">
+        <img class="element-1" src="images/element.png" alt="">
+        <img class="element-3" src="images/element3.png" alt="">
+        <img class="element-33" src="images/element3.png" alt="">
+        <div class="Sunnyguide">
+            <div class="guide">
+                <h2>Guides by Thousand Sunny</h2>
+                <p>
+                    Packed with tips and advice from our on-the-ground experts,
+                    our city guides app (iOS and Android) is the ultimate resource before and during a trip.
+                </p>
+                <button a href="Download" id="download" placeholder="Download">Download</button>
             </div>
 
+            <img class="Image-3" src="images/Thousand-03.png" alt="">
+        </div>
+    </section>
 
-            <p id="paragraph-3">
+    <section class="sec-5">
+        <img class="element-1" src="images/element.png" alt="">
+        <h1>Testimonials</h1>
+        <div class="Trials">
 
-                “Quisque in lacus a urna fermentum euismod. Integer mi nibh, dapibus ac scelerisque eu,
-                facilisis quis purus.
-                Morbi blandit sit amet turpis nec”
-            </p>
-            <div class="name-job">
-                <h3 class="name"> Edward Newgate</h3>
-                <h4 class="job">Founder Circle</h4>
+            <div class="Trial-star">
+
+                <div class="Ratings">
+                    <span class="star" data-rating="5">&#9733;</span>
+                    <span class="star" data-rating="5">&starf;</span>
+                    <span class="star" data-rating="5">&starf;</span>
+                    <span class="star" data-rating="5">&starf;</span>
+                    <span class="star" data-rating="5">&starf;</span>
+                </div>
+
+                <p id="paragraph-3">
+
+                    “Quisque in lacus a urna fermentum euismod. Integer mi nibh, dapibus ac scelerisque eu,
+                    facilisis quis purus.
+                    Morbi blandit sit amet turpis nec”
+                </p>
+                <div class="name-job">
+                    <h3 class="name"> Edward Newgate</h3>
+                    <h4 class="job">Founder Circle</h4>
+                </div>
+
             </div>
 
-
+            <img id="Image-4" src="images/photo.png" alt="">
 
         </div>
-        <div>
-            <img id="Image-4" src="photo.png" alt="">
-        </div>
-
     </section>
-    <br>
+    <!----Section 6--->
     <section class="pic-story">
+        <img class="element-3" src="images/element3.png" alt="">
+        <img class="element-2" src="images/element2.png" alt="">
+        <img class="element" src="images/element.png" alt="">
         <div class="pic-story-coll">
             <h2>Trending Stories</h2>
             <a href="VIewall">View all</a>
@@ -175,7 +192,7 @@
         <div class="picturess">
             <div class="pic-text">
                 <div>
-                    <img id="picture" src="Mask Group.png" alt="">
+                    <img id="picture" src="images/Mask Group.png" alt="">
                 </div>
                 <div id="h3para">
                     <h3>The many benefits of
@@ -189,7 +206,7 @@
             </div>
             <div class="pic-text">
                 <div>
-                    <img id="picture" src="Mask Group (1).png" alt="">
+                    <img id="picture" src="images/Mask Group (1).png" alt="">
                 </div>
                 <div id="h3para">
                     <h3>The best Kyoto restaurant
@@ -201,7 +218,7 @@
             </div>
             <div class="pic-text">
                 <div>
-                    <img id="picture" src="Mask Group (2).png" alt="">
+                    <img id="picture" src="images/Mask Group (2).png" alt="">
                 </div>
                 <div id="h3para">
                     <h3>Skip Chichen Itza and head
@@ -214,7 +231,7 @@
             </div>
             <div class="pic-text">
                 <div>
-                    <img id="picture" src="Mask Group (3).png" alt="">
+                    <img id="picture" src="images/Mask Group (3).png" alt="">
                 </div>
                 <div id="h3para">
                     <h3>Surf’s up at these beginner
@@ -235,8 +252,8 @@
 
             <div class="batch-1">
                 <div class="parent1">
-                    <img id="image" src="Ellipse 7.png">
-                    <img class="inner-image1" src="Ellipse 11.png" alt="">
+                    <img id="image" src="images/Ellipse 7.png">
+                    <img class="inner-image1" src="images/Ellipse 11.png" alt="">
                 </div>
                 <div>
                     <p class="paragraph-5">
@@ -279,11 +296,11 @@
         <hr>
 
         <div class="batch-5">
-            <span a href="www.twitter.com" id="icon"> <i class="fa-brands fa-twitter"></i></span>
-            <span a href="www.facebook.com" id="icon"><i class="fa-brands fa-facebook"></i></span>
-            <span a href="www.linkedin.com" id="icon"><i class="fa-brands fa-linkedin"></i></span>
-            <span a href="www.instagram.com" id="icon"><i class="fa-brands fa-instagram"></i></span>
-            <span a href="www.youtube.com" id="icon"><i class="fa-brands fa-youtube"></i></span>
+            <span a href="www.twitter.com" class="icon1"> <i class="fa-brands fa-twitter"></i></span>
+            <span a href="www.facebook.com" class="icon2"><i class="fa-brands fa-facebook"></i></span>
+            <span a href="www.instagram.com" class="icon3"><i class="fa-brands fa-instagram"></i></span>
+            <span a href="www.linkedin.com" class="icon4"><i class="fa-brands fa-linkedin"></i></span>
+            <span a href="www.youtube.com" class="icon5"><i class="fa-brands fa-youtube"></i></span>
         </div>
 
     </footer>
