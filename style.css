@@ -284,7 +284,8 @@ nav .fa-solid {
 
 .box {
     width: 150px;
-    height: 52px;
+    padding:17px 30px 17px 30px;
+    font-size:15px;
     display: block;
     border-radius: 6px;
     color: rgba(74, 76, 83, 1);
